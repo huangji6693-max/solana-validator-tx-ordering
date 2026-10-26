@@ -1,0 +1,20 @@
+# Security: Never commit private keys or keypair files
+*.key
+*.pem
+*keypair*.json
+id.json
+secrets/
+.env
+.env.*
+!.env.example
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/

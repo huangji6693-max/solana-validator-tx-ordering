@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tx-order-lab"
+version = "1.0.0"
+description = "Empirical measurement and statistical verification of Solana validator transaction ordering rules across client forks (Post-Alpenglow Epoch 1068)"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "cryptography>=41.0.0",
+    "pytest>=8.0.0",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

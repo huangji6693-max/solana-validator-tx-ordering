@@ -1,0 +1,15 @@
+services:
+  tx-order-lab:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - SOLANA_RPC_URL=${SOLANA_RPC_URL:-https://api.mainnet-beta.solana.com}
+      - DRY_RUN=${DRY_RUN:-true}
+      - MAX_SPEND_LAMPORTS=${MAX_SPEND_LAMPORTS:-50000000}
+      - SOLANA_KEYPAIR_PATH=${SOLANA_KEYPAIR_PATH:-}
+      - SOLANA_PRIVATE_KEY=${SOLANA_PRIVATE_KEY:-}
+    volumes:
+      - ./data:/app/data
+      # Optional external read-only volume for live-mode keypair (never inside repo)
+      # - ${HOST_SECRETS_DIR:-/tmp/solana-secrets}:/secrets:ro

@@ -1,0 +1,77 @@
+{
+  "captured_at_utc": "2026-10-26T14:47:53.212104+00:00",
+  "blocks": [
+    {
+      "slot": 461701391,
+      "file": "slot_461701391_v4_3_2.json",
+      "validator": "HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU",
+      "client_version": "4.3.2",
+      "client_family": "Agave / Jito-Agave v4.3.2",
+      "block_time_utc": "2026-10-26T14:41:07+00:00",
+      "total_transactions": 460
+    },
+    {
+      "slot": 461701258,
+      "file": "slot_461701258_v4_3_2.json",
+      "validator": "Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk",
+      "client_version": "4.3.2",
+      "client_family": "Agave / Jito-Agave v4.3.2",
+      "block_time_utc": "2026-10-26T14:40:38+00:00",
+      "total_transactions": 376
+    },
+    {
+      "slot": 461701395,
+      "file": "slot_461701395_v26_10_4.json",
+      "validator": "9eGrDohdNTAo61DRHyfMuqKWXqYnA3i254Wiszxe8FoY",
+      "client_version": "26.10.4",
+      "client_family": "Frankendancer / Firedancer Hybrid v26.10.4",
+      "block_time_utc": "2026-10-26T14:41:08+00:00",
+      "total_transactions": 668
+    },
+    {
+      "slot": 461701211,
+      "file": "slot_461701211_v26_10_4.json",
+      "validator": "CQdLgwkmmHF8DE6t4sguXMTXWDxq3oLh3xfekDTmow12",
+      "client_version": "26.10.4",
+      "client_family": "Frankendancer / Firedancer Hybrid v26.10.4",
+      "block_time_utc": "2026-10-26T14:40:28+00:00",
+      "total_transactions": 683
+    },
+    {
+      "slot": 461701007,
+      "file": "slot_461701007_v26_10_3.json",
+      "validator": "FBbqKvwLfKGZrKrfSbPJz4ymQ7zMarhRyZtu1RBkSe89",
+      "client_version": "26.10.3",
+      "client_family": "Frankendancer / Firedancer Hybrid v26.10.3",
+      "block_time_utc": "2026-10-26T14:39:45+00:00",
+      "total_transactions": 451
+    },
+    {
+      "slot": 461699583,
+      "file": "slot_461699583_v4_4_0_rc_0.json",
+      "validator": "mds4GEuiSgQRqveGyktWpETBFCb4AS2wDnhqwLHcT6Z",
+      "client_version": "4.4.0-rc.0",
+      "client_family": "Agave v4.4.0-rc.0 (Next-Gen CentralScheduler)",
+      "block_time_utc": "2026-10-26T14:34:42+00:00",
+      "total_transactions": 460
+    },
+    {
+      "slot": 461697411,
+      "file": "slot_461697411_v4_5_0_alpha_2.json",
+      "validator": "sce3TfT81rxYYcdbP1kBFMcTK3ZBc8hvHVeXD6WLSzE",
+      "client_version": "4.5.0-alpha.2",
+      "client_family": "Agave v4.5.0-alpha.2 (Experimental PrioGraph)",
+      "block_time_utc": "2026-10-26T14:26:56+00:00",
+      "total_transactions": 673
+    },
+    {
+      "slot": 461696595,
+      "file": "slot_461696595_v0_1_1.json",
+      "validator": "AHZxzLeRGRfNVFrCmP58iJgEwbcXyZeAkZ32CmbfEmYR",
+      "client_version": "0.1.1",
+      "client_family": "Custom Modular / Firedancer v0.1.1",
+      "block_time_utc": "2026-10-26T14:24:03+00:00",
+      "total_transactions": 830
+    }
+  ]
+}
